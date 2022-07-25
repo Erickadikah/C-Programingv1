@@ -1,16 +1,11 @@
 #include <stdio.h>
 
-int main()
+main()
 {
-    /* 9 = 0000 1001 */
-    unsigned int x = 9;
+    int ch;
 
-    /* 24 = 0001 1000 */
-    unsigned int y = 24;
-
-    unsigned int r;
-
-    r = x >> 2;
-    printf("x << 2: %d\n", r)
-
+    printf("please enter one character is  H : %c\n", ch);
+    ch = getc(stdin);
+    printf("the character you just entered is b : %c\n", ch);
+    return 0;
 }
